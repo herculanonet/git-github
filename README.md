@@ -109,15 +109,15 @@
 
 ### Geral
 
-As configurações do GIT são armazenadas no arquivo **.gitconfig** localizado dentro do diretório do usuário do Sistema Operacional (Ex.: Windows: C:\Users\Documents and Settings\Leonardo ou *nix /home/leonardo).
+As configurações do GIT são armazenadas no arquivo **.gitconfig** localizado dentro do diretório do usuário do Sistema Operacional (Ex.: Windows: C:\Users\Documents and Settings\Herculano ou *nix /home/hercu).
 
 As configurações realizadas através dos comandos abaixo serão incluídas no arquivo citado acima.
 
 ##### Setar usuário
-	git config --global user.name "Leonardo Comelli"
+	git config --global user.name "Herculano"
 
 ##### Setar email
-	git config --global user.email leonardo@software-ltda.com.br
+	git config --global user.email herculano.developer@gmail.com
 	
 ##### Setar editor
 	git config --global core.editor vim
@@ -273,7 +273,7 @@ A alteração do diretório pode ser realizada através do comando abaixo:
 
 ### Vincular repositório local com um repositório remoto
 
-	git remote add origin git@github.com:leocomelli/curso-git.git
+	git remote add origin git@github.com:herculanonet/git-github.git
 	
 ### Exibir informações dos repositórios remotos
 
@@ -310,7 +310,7 @@ Os demais **pushes** não precisam dessa informação
 	
 ### Clonar um repositório remoto já existente
 
-	git clone git@github.com:leocomelli/curso-git.git
+	git clone git@github.com:herculanonet/git-github.git
 	
 ### Tags
 
@@ -536,12 +536,12 @@ Depois de encontrar o commit com problema, para retornar para o *HEAD* utilize:
 	git add README.md
 	git commit -m "first commit"
 	git branch -M main
-	git remote add origin https://github.com/CristianoFIlho/teste.git
+	git remote add origin https://github.com/herculanonet/git-github.git
 	git push -u origin main
 	
 ##### ..ou empurre um repositório existente a partir da linha de comando
 	
-	git remote add origin https://github.com/CristianoFIlho/teste.git
+	git remote add origin https://github.com/herculanonet/git-github.git
 	git branch -M main
 	git push -u origin main
  	
